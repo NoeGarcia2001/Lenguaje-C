@@ -3,13 +3,11 @@
 #include<conio.h>
 
 using namespace std;
-int main()
-{
+int main(){
 	int numeros[8] = {1,7,7,8};
 	int suma = 0;
 	
-	for(int i=0; i<8; i++)
-	{
+	for(int i=0; i<8; i++){
 		suma += numeros[i];
 	}
 	

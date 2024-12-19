@@ -5,8 +5,7 @@
 using namespace std;
 void EM_Matriz(int x[50][50], int f, int c);
 
-int main()
-{
+int main(){
 	int x[50][50] = {//  0  1  2  3  4
 						{45,21,11,10,3}, //fila 0
 						{62,10,20,32,9}  //fila 1
@@ -28,12 +27,10 @@ int main()
 	return 0;
 }
 
-void EM_Matriz(int x[50][50], int f, int c)
-{
+void EM_Matriz(int x[50][50], int f, int c){
 	int menor = x[0][0];
 	for(int i=0; i<f; i++)
-		for(int j=0; j<c; j++)
-		{
+		for(int j=0; j<c; j++){
 			if(x[i][j] < menor)
 			menor = x[i][j];
 			
